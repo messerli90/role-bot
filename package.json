@@ -1,7 +1,7 @@
 {
   "name": "role-bot",
   "version": "1.0.0",
-  "description": "Discord bot to allowe users to self assign roles",
+  "description": "Discord bot to allow users to self assign roles",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^11.0.0",
@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
