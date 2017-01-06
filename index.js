@@ -55,6 +55,12 @@ Client.on('message', msg => {
   }
 })
 
+Client.on("guildMemberAdd", member => {
+    console.log(`New User "${member.user.username}" has joined "${member.guild.name}"` );
+
+    member.guild.defaultChannel.sendMessage(`Welcome "${member.user.username}"! Be sure to set your platform by typing "!role"`);
+})
+
 Client.on('ready', () => {
   console.log(`Ready to set roles in ${Client.channels.size} channels on ${Client.guilds.size} servers, for a total of ${Client.users.size} users.`)
 })
