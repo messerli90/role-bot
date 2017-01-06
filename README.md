@@ -10,7 +10,7 @@ You need to create an application and bot to get your BOT TOKEN. This can be don
 
 ## Installation
 
-
+If using Heroku skip the Configuration step below and add the key to your Heroku app's settings under 'Config Variables'.
 
 ## Configuration
 
