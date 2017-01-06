@@ -1,0 +1,29 @@
+{
+  "name": "role-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to allowe users to self assign roles",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "dotenv": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/messerli90/role-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "roles",
+    "bot"
+  ],
+  "author": "Michael Messerli <michaelamesserli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/messerli90/role-bot/issues"
+  },
+  "homepage": "https://github.com/messerli90/role-bot#readme"
+}
