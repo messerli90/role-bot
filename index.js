@@ -62,6 +62,7 @@ Client.on("guildMemberAdd", member => {
 })
 
 Client.on('ready', () => {
+  Client.user.setGame('type !role --help')
   console.log(`Ready to set roles in ${Client.channels.size} channels on ${Client.guilds.size} servers, for a total of ${Client.users.size} users.`)
 })
 
