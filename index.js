@@ -29,15 +29,15 @@ Client.on('message', msg => {
 
     if (args.length < 2 || args[1] == '--help') {
       msg.channel.sendMessage('These are the roles you\'re allowed to join: \n'+
-      allowedString +
-      '\nuse "!role `<role_name>` to join a role')
+        allowedString +
+        '\nuse "!role `<role_name>` to join a role')
 
       return
     }
 
     // Get the role
     let role = msg.guild.roles.find("name", args[1].toLowerCase());
-    console.log(role)
+
     if (!role || role === null) {
       msg.channel.sendMessage('Could not find a role by that name.')
       return
